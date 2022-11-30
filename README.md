@@ -1,6 +1,6 @@
 # Chandra_X_Ray_data_processing_pipeline
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6886528.svg)](https://doi.org/10.5281/zenodo.6886528)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5657141.svg)](https://doi.org/10.5281/zenodo.5657141)
 
 This package contains the python files needed in the post-processing of data taken with the High Resolution Camera (HRC-I) instrument on-board the Chandra X-ray Observatory (CXO). The code is set up to process observations of Jupiter, but can be applied to other solar system objects in an analogous way. A description of each step in the pipeline is provided below, along with information on how to download the data.
 
