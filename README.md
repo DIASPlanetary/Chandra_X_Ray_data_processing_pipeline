@@ -31,6 +31,8 @@ For example, data from the observation of Jupiter with the **observation ID** (o
 ```shell
 download_chandra_obsid 1862
 ```
+which will give the output:
+
 <img width="642" alt="download_chandra_obsid" src="https://github.com/DIASPlanetary/Chandra_X_Ray_data_processing_pipeline/assets/76570532/7a5324a5-91dc-45b0-bc48-13861920fc32">
 
 ### Pre-processing
@@ -46,6 +48,9 @@ gunzip primary/*.gz secondary/*.gz
 The processing pipeline requires **header information** from the raw **.fits** files that is not present in some of the earlier observations of Jupiter. The obsIDs for these observations are listed in **no_samp.txt**. This step can be ignored for any obsIDs not present in this list.
 
 Another CIAO command, [`chandra_repro`](https://cxc.cfa.harvard.edu/ciao/ahelp/chandra_repro.html), must be executed on the observations in **no_samp.txt** to reprocess the event files. The user will be propmted to provide input and output directories. These should be your data directory (e.g. .../1862/) and a new sub-directory (e.g. ...1862/repro/) respectively.
+
+<img width="1143" alt="chandra_repro" src="https://github.com/DIASPlanetary/Chandra_X_Ray_data_processing_pipeline/assets/76570532/be1cca70-6f13-4307-a5da-06ca5f57fb36">
+
 
 After performing ```chandra_repro```, this new third sub-directory, **repro/**, will contain the reprocessed event file. The orbital ephemeris file for the observation also needs to be moved into the **repro/** directory before running SSO_FREEZE. 
 
