@@ -7,13 +7,13 @@ This package contains the python files needed in the post-processing of data tak
 The code is set up to process observations of Jupiter, but can be applied to other solar system objects in an analogous way. A description of each step in the pipeline is provided below, along with information on how to download the data.
 
 ## Contents
-1. [Downloading Data](#downloading-data)
-  - [Pre-Processing](#pre-processing)
-    - [chandra_repro](#chandra_repro)
-2. [SSO_FREEZE](#sso_freeze)
-3. [GO_CHANDRA](#go_chandra)
-4. [PI_FILTER](#pi_filter)
-5. [Requirements](#requirements)
+- [1. Downloading Data](#downloading-data)
+   * [1.1. Pre-Processing](#pre-processing)
+   * [1.2 chandra_epro](#chandra_repro)
+- [2. SSO_FREEZE](#sso_freeze)
+- [3. GO_CHANDRA](#go_chandra)      
+- [4. PI_FILTER](#pi_filter)
+- [5. Requirements](#requirements)
 
 
 ## Downloading Data
