@@ -16,7 +16,7 @@ The code is set up to process observations of Jupiter, but can be applied to oth
 5. [Requirements](#requirements)
 
 
-## Downloading the data
+## Downloading Data
 
 Chandra HRC-I data can be obtained directly from the [Chandra Data Archive](https://cda.harvard.edu/chaser/). 
 
