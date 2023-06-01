@@ -6,14 +6,14 @@ This package contains the python files needed in the post-processing of data tak
 
 The code is set up to process observations of Jupiter, but can be applied to other solar system objects in an analogous way. A description of each step in the pipeline is provided below, along with information on how to download the data.
 
-## Contents
-- [1. Downloading Data](#downloading-data)
-   * [1.1. Pre-Processing](#pre-processing)
-   * [1.2 chandra_epro](#chandra_repro)
-- [2. SSO_FREEZE](#sso_freeze)
-- [3. GO_CHANDRA](#go_chandra)      
-- [4. PI_FILTER](#pi_filter)
-- [5. Requirements](#requirements)
+## Tabble of Contents
+- [Downloading Data](#downloading-data)
+   * [Pre-Processing](#pre-processing)
+      + [chandra_epro](#chandra_repro)
+- [SSO_FREEZE](#sso_freeze)
+- [GO_CHANDRA](#go_chandra)      
+- [PI_FILTER](#pi_filter)
+- [Requirements](#requirements)
 
 
 ## Downloading Data
@@ -40,11 +40,11 @@ Once downloaded, the data will be stored as **1862/**, with the sub-directories 
 gunzip primary/*.gz secondary/*.gz
 ```
 
-### chandra_repro
+#### chandra_repro
 
 The processing pipeline requires **header information** from the raw **.fits** files that is not present in some of the earlier observations of Jupiter. The obsIDs for these observations are listed in **no_samp.txt**. This step can be ignored for any obsIDs not present in this list.
 
-Another CIAO command, [`chandra_repro`](https://cxc.cfa.harvard.edu/ciao/ahelp/chandra_repro.html), must be executed on the observations in **no_samp.txt** to reprocess the event files. When running `chandra_repro` the user will be propmted to provide input and output directories. These should be your data directory (e.g. .../1862/) and a new sub-directory (e.g. ...1862/repro/) respectively.
+Another CIAO command, [`chandra_repro`](https://cxc.cfa.harvard.edu/ciao/ahelp/chandra_repro.html), must be executed on the observations in **no_samp.txt** to reprocess the event files. The user will be propmted to provide input and output directories. These should be your data directory (e.g. .../1862/) and a new sub-directory (e.g. ...1862/repro/) respectively.
 
 After performing ```chandra_repro```, this new third sub-directory, **repro/**, will contain the reprocessed event file. The orbital ephemeris file for the observation also needs to be moved into the **repro/** directory before running SSO_FREEZE. 
 
