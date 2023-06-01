@@ -8,8 +8,8 @@ The code is set up to process observations of Jupiter, but can be applied to oth
 
 ## Contents
 1. [Downloading Data](#downloading-data)
-  1. [Pre-Processing](#pre-processing)
-    1. [chandra_repro](#chandra_repro)
+  - [Pre-Processing](#pre-processing)
+    - [chandra_repro](#chandra_repro)
 2. [SSO_FREEZE](#sso_freeze)
 3. [GO_CHANDRA](#go_chandra)
 4. [PI_FILTER](#pi_filter)
