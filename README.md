@@ -15,7 +15,6 @@ The code is set up to process observations of Jupiter, but can be applied to oth
 - [PI_FILTER](#pi_filter)
 - [Requirements](#requirements)
 
-<img width="642" alt="download_chandra_obsid" src="https://github.com/DIASPlanetary/Chandra_X_Ray_data_processing_pipeline/assets/76570532/7a5324a5-91dc-45b0-bc48-13861920fc32">
 
 ## Downloading Data
 
@@ -29,11 +28,10 @@ Once CIAO has been installed, data from a specific observation can be downloaded
 
 For example, data from the observation of Jupiter with the **observation ID** (obsID) 1862 can be dowloaded with the following command:
 
-
-
 ```shell
 download_chandra_obsid 1862
 ```
+<img width="642" alt="download_chandra_obsid" src="https://github.com/DIASPlanetary/Chandra_X_Ray_data_processing_pipeline/assets/76570532/7a5324a5-91dc-45b0-bc48-13861920fc32">
 
 ### Pre-processing
 
