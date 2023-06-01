@@ -12,7 +12,7 @@ The code is set up to process observations of Jupiter, but can be applied to oth
     1. [chandra_repro](#chandra_repro)
 2. [SSO_FREEZE](#sso_freeze)
 3. [GO_CHANDRA](#go_chandra)
-4. [PI_FILTER](pi_filter)
+4. [PI_FILTER](#pi_filter)
 5. [Requirements](#requirements)
 
 
