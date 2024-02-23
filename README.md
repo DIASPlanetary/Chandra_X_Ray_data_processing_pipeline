@@ -6,7 +6,7 @@ This package contains the python files needed in the post-processing of data tak
 
 The code is set up to process observations of Jupiter, but can be applied to other solar system objects in an analogous way. A description of each step in the pipeline is provided below, along with information on how to download the data.
 
-## Tabble of Contents
+## Table of Contents
 - [Downloading Data](#downloading-data)
    * [Pre-Processing](#pre-processing)
       + [chandra_epro](#chandra_repro)
